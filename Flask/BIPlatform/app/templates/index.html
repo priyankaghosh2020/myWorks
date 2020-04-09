@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<h2>Hello, {{ user.username }}!</h2>
+
+<div>  Display
+    <a href="{{ url_for('display') }}">Graph</a>
+</div>
+{% endblock %}
